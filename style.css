@@ -196,6 +196,7 @@ footer h4{
 		display: flex;
 		justify-content: center;
 		justify-content: space-around;
+		align-items: center;
 	}
 
 	.card-section .padding{
