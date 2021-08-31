@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color: #ECECEC;
+}
+
+span{
+	color: #5359FF;
+}
+
+.logo{
+	font-weight: 800;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.premium{
+	font-weight: bold;
+}
+
+.nav-link, .logo{
+	margin: 0px 20px;
+}
+
+
+.primary-section{
+	margin: 100px auto;
+	text-align: center;
+}
+
+.left-col p{
+	font-weight: bold;
+	color: gray;
+	font-size: 1.5em;
+}
+
+.left-col h1{
+	font-weight: bold;
+	font-size: 2.5em;
+
+}
+
+.left-col .btn-align{
+	margin: 30px 0px;
+}
+
+.btn-align img{
+	margin-right: 10px;
+}
+
+.try-btn{
+	font-size: 1.5em;
+	text-decoration: none;
+	background-color: #5359FF;
+	padding: 6px 20px;
+	color: white;
+	border-radius: 1em;
+}
+
+.try-btn:hover{
+	color: white;
+}
+
+.watch-btn{
+	text-decoration: none;
+	color: black;
+}
+
+.right-col img{
+	width: 300px;
+}
+
+.phone-hold{
+	display: none;
+}
+
+.secondary-section{
+	background-color: #444444;
+}
+
+.secondary-section li{
+	list-style-type: none;
+	display: block;
+	color: white;
+	margin: 20px 0px;
+}
+
+.secondary-section ul img{
+	margin-right: 20px;
+}
+
+.secondary-section ul{
+	padding: 100px 0px;
+	margin-left: 30px;
+
+}
+
+.card-section{
+	background-color: #5359FF;
+	color: white;
+	position: relative;
+	top: -30px;
+}
+
+.card-section .li{
+	background-color: #3C40A8;
+	text-align: center;
+	padding: 2em 1em;
+	width: 80%;
+	margin: 0 auto 5em auto;
+	border-radius: 1em;
+}
+
+.card-section img{
+	width: 5em;
+	height: 5em;
+	border: 5px solid #3C40A8;
+	border-radius: 50%;
+	margin-top: -4.5em;
+}
+
+.padding{
+	padding: 100px 0px;
+}
+
+.contact-section{
+	text-align: center;
+}
+
+.contact-section input, textarea{
+	width: 250px;
+	border: none;
+}
+
+.contact-section .left-contact{
+	width: 250px;
+	height: 446px;
+	display: inline-block;
+	justify-content: center;
+}
+
+.contact-section label{
+	font-size: 1.5em;
+	margin: 10px 0px;
+	float: left;
+}
+
+.contact-section h1{
+	font-weight: bold;
+	text-align: left;
+}
+
+.send-message{
+	margin: 10px 0px;
+	margin-bottom: 20px;
+	background-color: #5359FF;
+	color: white;
+	padding: 3px 0px;
+	border-radius: 50px;
+	border: none;
+}
+
+footer{
+	width: 100%;
+	height: 30px;
+}
+
+footer h4{
+	font-size: 16px;
+	text-align: center;
+}
+
+.blue-box, .dots{
+	display: none;
+}
+
+
+
+
+       /*For Devices greater then tablets or 890*/
+
+
+@media only screen and (min-width: 890px){
+
+	.primary-section .container{
+		display: flex;
+		justify-content: center;
+		justify-content: space-around;
+	}
+
+	.card-section .padding{
+		display: flex;
+		margin: 0 30px;
+	}
+
+	.card-section .li{
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+
+	.contact-section .contact-map{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.secondary-section .center-align{
+		margin-left: 25%;
+	}
+	.phone-hold{
+		display: flex;
+		width: 250px;
+		height: 250px;
+		z-index: 1;
+		position: absolute;
+		right: 0;
+		top: 52em;
+	}
+
+	.blue-box{
+		display: flex;
+		background-color: #5359FF;
+		width: 100px;
+		height: 200px;
+		z-index: 2;
+		position: absolute;
+		left: 0;
+		top: 520px;
+		align-items: center;
+	}
+
+	.dots{
+		display: flex;
+		height: 100px;
+		margin-left: 40px;
+	}
+
+	.btn-align{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.watch-btn{
+		margin-left: 20px;
+	}
+
+}
+
+@media only screen and (min-width: 992px){
+
+	.premium{
+		border: 4px solid #5359FF;
+		padding: 6px 8px;
+		border-radius: 19px;
+	}
+
+}
